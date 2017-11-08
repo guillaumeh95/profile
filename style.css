@@ -88,3 +88,35 @@ a:hover {
   padding-left: 65px;
   text-align: center;
 }
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 10;
+  top: 10;
+  bottom: 10;
+  border-radius: 10px;
+  background-color: rgba(89, 127, 202, 0.7);
+}
+#page-content {
+  margin-left: 100px auto;
+}
+#sidebar li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 30px;
+}
+#sidebar a {
+  color: rgba(40, 62, 86, 0.7);
+}
+#sidebar a:hover {
+  color: rgba(40, 62, 86, 1);
+}
+#sidebar ul {
+  padding-left: 0px;
+  text-align: center;
+}
+
+#text-small-blue {
+  font-size: 11px;
+  color: rgba(89, 127, 202, 1);
+}
