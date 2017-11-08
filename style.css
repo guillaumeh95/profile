@@ -104,19 +104,23 @@ a:hover {
   text-decoration: none;
   list-style-type: none;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 #sidebar a {
   color: rgba(40, 62, 86, 0.7);
 }
 #sidebar a:hover {
   color: rgba(40, 62, 86, 1);
+  font-size: 50px;
 }
 #sidebar ul {
   padding-left: 0px;
   text-align: center;
 }
-
 #text-small-blue {
   font-size: 11px;
   color: rgba(89, 127, 202, 1);
+}
+#social-networks {
+  font-size: 16px;
 }
