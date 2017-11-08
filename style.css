@@ -1,0 +1,90 @@
+body {
+  background-color: rgba(227, 239, 243, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(20, 20, 20, 1);
+  font-size: 15px;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(89, 127, 202, 1);
+}
+h1 {
+  font-weight: 800;
+}
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 17px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+a {
+  text-decoration: none;
+  color: rgba(89, 127, 202, 0.7);
+}
+a:hover {
+  color: rgba(89, 127, 202, 1);
+}
+.container {
+  width: 660px;
+  margin: 30px auto;
+}
+.card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.list-inline{
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+#img-profile {
+  width: 100px;
+  border: 1px solid rgba(89, 127, 202, 1);
+}
+.btn-blue {
+  background-color: rgba(89, 127, 202, 0.8);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.btn-blue:hover {
+  background-color: rgba(89, 127, 202, 1);
+  color: white;
+}
+.img-border img {
+  border-radius: 4px;
+}
+.img-title-descr h4, .img-title-descr p {
+  padding-left: 30px;
+  text-align: center;
+}
+.p-text-size p {
+  font-size: 10px;
+}
+#le-wagon-logo {
+  width: 17px;
+}
+.img-title-descr-movies h4, .img-title-descr-movies p {
+  padding-left: 65px;
+  text-align: center;
+}
